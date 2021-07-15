@@ -1,0 +1,64 @@
+header{
+  text-align:center;
+   font-size:1em;
+   margin-left:140px;
+  
+}
+#doc{
+  margin:15px;
+}
+h4{
+  font-size:18px;
+  margin-left:35px;
+}
+li{
+  font-size:20px;
+}
+code{
+  font-size:16px;
+   margin-left:35px;
+}
+p{
+  font-family:monospace;
+  font-size:15px;
+   margin-left:25px;
+}
+#navbar {
+  position: fixed;
+  min-width: 290px;
+  top: 0px;
+  left: 0px;
+  width: 300px;
+  height: 100%;
+  border-right: solid;
+  border-color:gray;
+  background-color:#fcfaf7;
+
+}
+}
+
+@media only screen and(max-width:850px){
+  #navbar{
+    position: absolute;
+    top: 0;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    max-height: 270px;
+    border: none;
+    z-index: 1;
+    border-bottom: 2px solid;
+  
+}
+}
+
+#main-doc{
+  background-color:#92f7dc;
+  margin-left:18em;
+}
+
+@media only screen and(max-width:850px){
+#python_syntax p{
+    margin-left:20px;
+  }
+}
